@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Web</title>
+    <link rel="icon" href="https://static.vecteezy.com/system/resources/previews/019/512/165/non_2x/contract-icon-for-your-website-mobile-presentation-and-logo-design-free-vector.jpg">
+</head>
+<body background="https://png.pngtree.com/background/20210714/original/pngtree-liquid-abstract-colorful-background-form-picture-image_1205885.jpg">
+    <fieldset>
+        <legend>PERSONAL INFO</legend>
+    <form action="pic.html" method="post">
+    <center>
+    <table>
+        <tr>
+            <th><label for="name">NAME:</label></th>
+            <td><input type="text" id="name" name="rname" placeholder="enter the name" required></td>
+        </tr>
+        <tr>
+            <th><label for="age">AGE:</label></th>
+            <td><input type="number" id="age" name="rage" placeholder="enter the age" required></td>
+        </tr>
+        <tr>
+            <th><label for="dob">DATE OF BIRTH:</label></th>
+            <td><input type="date" id="dob" name="rdate" required></td>
+        </tr>
+        <tr>
+            <th><label for="mail">EMAIL:</label></th>
+            <td><input type="email" id="mail" name="rmail" placeholder="enter the email" required></td>
+        </tr>
+        <tr>
+            <th><label for="pass">PASSWORD:</label></th>
+            <td><input type="password" id="pass" name="rpass" 
+                placeholder="enter the password" required></td>
+        </tr>
+        <tr>
+            <th><label>GENDER:</label></th>
+            <td><input type="radio" id="male" name="rgen" required>
+            <label for="male">MALE</label>
+            <input type="radio" id="female" name="rgen">
+            <label for="female">FEMALE</label></td>
+        </tr>
+        <tr>
+            <th><label for="lang">LANGUAGE:</label></th>
+            <td><input type="range" id="tamil" name="rtamil">
+            <label for="tamil">TAMIL</label><br>
+            <input type="range" id="english" name="renglish">
+            <label for="english">ENGLISH</label></td>
+        </tr>
+        <tr>
+            <th><label>PROGRAMMING:</label></th>
+            <td><input type="checkbox" id="py" name="rpro" required>
+            <label for="py">PYTHON</label>
+            <input type="checkbox" id="java" name="rpor">
+            <label for="java">JAVA</label>
+            <input type="checkbox" id="others" name="rpro">
+            <label for="others">OTHERS</label></td>
+        </tr>
+        <tr>
+            <th><label for="desc">DESCRIPTION:</label></th>
+            <td><textarea id="desc" rows="2" cols="45" type="text" placeholder="If you click others in programming category Then mention that language here..." name="rdesc"></textarea></td>
+        </tr>
+        <tr>
+            <th><label>BASICS CONCEPTS:</label></th>
+            <td><select><optgroup label="--FIRST LEVEL--">
+                <option>VARIABLES</option>
+                <option>DATATYPES</option>
+                <option>OPERATORS</option></optgroup>
+                <optgroup label="--SECOND LEVEL--">
+                <option>CONDITIONAL STATAMENTS</option>
+                <option>LOOPING STATEMENTS</option>
+                <option>OOPS CONCEPT</option></optgroup>
+            </select></td>
+        </tr>
+        <tr>
+            <th><label for="file">FILE:</label></th>
+            <td><input type="file" id="file" name="rfile" required></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><input type="submit" value="Register">
+            <input type="reset" value="Clear"></td></tr>
+    </table></center>
+    </form>
+</fieldset>
+</body>
+</html>
